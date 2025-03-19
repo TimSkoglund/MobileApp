@@ -1,6 +1,7 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using Microsoft.Extensions.DependencyInjection;
 
+
 namespace MobileApp.ViewModels;
 
 public partial class MainViewModel : ObservableObject

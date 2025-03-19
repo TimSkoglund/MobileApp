@@ -17,8 +17,12 @@ public partial class App : Application
             {
                 services.AddSingleton<MainViewModel>();
                 services.AddSingleton<MainWindow>();
+
                 services.AddTransient<ActivitiesViewModel>();
                 services.AddTransient<ActivitiesView>();
+
+                services.AddTransient<AddActivityViewModel>();
+                services.AddTransient<AddActivityView>();
             })
             .Build();
 
